@@ -4,7 +4,7 @@ task :hello do
   puts "hello from Rake!"
 end
 
-task :hola
+task :hola do
   puts "hola de Rake!"
 end
 end
