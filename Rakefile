@@ -12,3 +12,7 @@ end
 task :console => :environment do
  Pry.start
 end
+
+task :migrate => :environment do
+  Student.create_table
+end
